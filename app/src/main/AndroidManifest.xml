@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo">
 
-        <!-- Main activity -->
+        <!-- Splash Activity as Launcher -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Todo.Splash">
             <intent-filter>
@@ -22,5 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Todo" /> <!-- Default theme here -->
+
+        <!-- Add Task Activity -->
+        <activity android:name=".AddTaskActivity" />
+
     </application>
+
 </manifest>

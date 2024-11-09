@@ -6,8 +6,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Splash Theme -->
     <style name="Theme.Todo.Splash" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/flash_background</item>
     </style>
+
+
 </resources>

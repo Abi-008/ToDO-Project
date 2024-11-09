@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/light_blue"/>
+    <!-- Background color for the splash screen -->
+    <item android:drawable="@color/light_blue" />
 
+    <!-- Centered logo -->
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/logo"/> <!-- Logo -->
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo" /> <!-- Replace with your logo drawable name -->
     </item>
 </layer-list>
-
